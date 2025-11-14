@@ -28,7 +28,7 @@ Permision --> BaseDeDato :accede a
 Esquema --o Consulta 
 Consulta --* Tabla : tiene
 BaseDeDato -- ForeingKey 
-BaseDeDato -->¡ PrimaryKey
+BaseDeDato --> PrimaryKey
 PrimaryKeyKey *--* ForeingKey : se relaciona con
 ForeingKey o-- Tabla : pertenece a
 PrimaryKey o-- Tabla : pertenece a
